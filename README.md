@@ -21,11 +21,12 @@ cd axelor-latest
 ```
 docker compose up -d
 ```
+
+# esperar 10 minutos para que se pueda visualizar 
+o revisar los logs
  
 Ver en "http://localhost:8200"
 
 User: admin 
 
 Password: admin
-
-
