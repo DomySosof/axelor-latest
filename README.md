@@ -16,6 +16,11 @@ git clone https://github.com/DomySosof/axelor-latest.git
 ```
 cd axelor
 ```
+# levantar el docker 
+
+```
+docker compose up -d
+```
  
 Ver en "http://localhost:8200"
 
