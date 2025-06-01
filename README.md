@@ -8,9 +8,13 @@ mkdir docker
 ```
 cd mkdir docker
 ```
+# clonar el repositorio 
 
 ```
-git clone https://github.com/DomySosof/axelor-latest
+git clone https://github.com/DomySosof/axelor-latest.git
+```
+```
+cd axelor
 ```
  
 Ver en "http://localhost:8200"
