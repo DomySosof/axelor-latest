@@ -14,7 +14,7 @@ cd mkdir docker
 git clone https://github.com/DomySosof/axelor-latest.git
 ```
 ```
-cd axelor
+cd axelor-latest
 ```
 # levantar el docker 
 
