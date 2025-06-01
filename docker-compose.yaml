@@ -1,0 +1,15 @@
+services:
+
+    aos-preview:
+        image: axelor/aos-preview-app:latest     # v8.3.3
+        container_name: aos
+        ports:
+            - "8200:8080"
+        environment:
+            - APP_LANGUAGE=en
+            - APP_DEMO_DATA=false   # true 
+            - APP_LOAD_APPS=false   # true
+        volumes:
+            - ./aos/data:/app/data
+            - ./aos/postgresql:/var/lib/postgresql
+        restart: unless-stopped 
